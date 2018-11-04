@@ -6,7 +6,6 @@ script:
 deploy:
   skip_cleanup: true
   provider: firebase
-  project: sunpo-bb32f
-env:
-  global:
+  token:
     secure: aoOt+IxRJddqIujcVyn1PmeQns2XdDBgqfkJ/oUVK86O17scdkVrVYyXNDvpjtXlykMQuv3R0LTT3hBOO/ppe6Bf5DFhLzTgfzpnVwaJGrd+hNxgOyHMi6eJKcrkh8D2KOsSfc+oVy7I1RNcPUWcwuBeZoOPhyprLoSMbdpabv5RMy1LYNeWK1Lzpwtva8NecAGXnHKO//xLw8E78ELalJxSDmaaZEnInv0RY7HbrbrvXwyVImEk4AF/7Wj5mIVrnnrla1FDFGXW/Au8WJb04r3+AxaXon0kKtD+fs/quoT6eYdbdvLxZaTZw+n2g4N4Gax7oL20rV7lAwh1Y74fXm5mPyqtaNnIbQ2zi3cF/s2tUvA6AD++XIrjQcAoOeDsgdNivmnOHrG3MOSDJr9AHkjtWn8GlXr4uOWa/BfBcKec6RZ0XTJy9WvXvq+2gMOm+TMT9wyXTmJ7nQP6J5Q4aK4rC1o6B8kOYl8aHG2UaPtsBoZ5t4SjvETLVzDTaz1RVWAG6VujOfmv04m/nc9LE3HRVW5GwtHAQa3CbyiPi/HsR+9F+poYrQmJjY3eWlBKrOlEkh4EgNQodbCB/UXIgFjNP/XWtzV+3VA7L7e22FrBNH1n/1137PoUy8Qb4P91NrYL9hh5H7dXukeKBGOtiuh8XCUq2g7OeKtxV9jkt20=
+  project: sunpo-bb32f
