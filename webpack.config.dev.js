@@ -8,6 +8,7 @@ export default {
   },
   devtool: 'eval-source-map',
   entry: [
+    '@babel/polyfill',
     './src/webpack-public-path',
     'react-hot-loader/patch',
     'webpack-hot-middleware/client?reload=true',

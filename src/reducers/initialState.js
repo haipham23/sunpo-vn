@@ -1,3 +1,9 @@
 export default {
-  home: {}
+  home: {},
+  header: {
+    content: {},
+    error: null,
+    fetched: false,
+    isFetching: false,
+  }
 };

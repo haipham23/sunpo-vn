@@ -7,7 +7,7 @@ import { TestProvider } from '../../utils/test.utils';
 
 import Header from './Header';
 
-describe('Header component', () => {
+describe.skip('Header component', () => {
   it('should display', () => {
     const store = configuredMockStore()({});
     const wrapper = mount(
