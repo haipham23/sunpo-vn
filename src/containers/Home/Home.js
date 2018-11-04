@@ -10,7 +10,7 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <h1>Sunpo VN from Hai v3</h1>
+        <h1>Sunpo VN from Hai v4</h1>
         <div>
           <Button variant="contained" color="primary">
             Click Me
