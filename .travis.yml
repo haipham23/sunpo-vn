@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - '8'
+script:
+  - yarn build
+deploy:
+  skip_cleanup: true
+  provider: firebase
+  token:
+    secure: "v2cc00bBhMHt9JcOMjrvhFxEst0gFtLKfsxiyO6fywEUiJw6bTTrxEm9tF68tO5KJzO83kIxY7n+A8XAbgeJh1WKNgy0dE7Zk2sWoEeFyPvDACl68MwPWODjZDQQ8LSCvdDdxImQp9IJpGMhtNpnRuNbd95mNbLJxBZrNiBTh5p1TY1WPZJESi/9MBlgQsZUy2VN2CO0mPy3k2paYJQ0Y4kg6ZuzCy8jNp28fdooOxVuhltni7vohKGb1bCr8gsYgwKs9wK7odxalzBzjFH6i+5BYD9NyHNuI2jv9++TBqq9cgkJEcz7b9oS67Mw+LbpjcWUDaZFv0k2FnNq/BSVyvLKKURqoggJWL8dUm/Uwp76D68WZtqAT7AvodZH76bwzgzMPBln4XGnI2vntGgvBRM9cnGc++lq04JnqYaMgkv/MRh+d6niCYIYkWF0jct/DEpvDd3WUGRF8swMFDZlR8mfMyuUqfFv2aFmn+1ApVNnoIaOkxcwlt7+JFkRZilFoIwzqBfQBzdoC4uo+KyPC1fFKO/QEjLia+qgeUW8RgKSyfV8MgGjVWVw1TxYMJWR9DKVWrvncEFPzM0QzQZlXw9O/z+bVPWcpjaATU3DiMJLoYJu+wc2f5u1Ma//y6gUd+OOM/5zeB54iJ5u3ZlNAO60BFoALQNaUHSGUCddRSc="
+  project: "sunpo-bb32f"
